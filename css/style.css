@@ -1,15 +1,43 @@
 header{
     background-color: #F5EDE5;
 }
+
 main{
     background-color: #F5EDE5;
 }
+
 footer{
     background-color: #473335;
+    color: #F5EDE5;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
+
 .headerlogo{
     aspect-ratio: 108/37;
-    margin: 0;
-    height: 10%;
+    max-width: .5em;
+
+}
+.headerul{
+    padding-bottom: 5em;
+    padding-right: 5em;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none; 
+    color: #473335;
+    font-weight: bold;
+}
+a:visited {
+    text-decoration: none; 
+    color: black;
+}
+a:active {
+    text-decoration: none; 
+    color: black;
 }
