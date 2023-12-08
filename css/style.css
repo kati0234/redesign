@@ -9,5 +9,7 @@ footer{
     margin: 0 auto;
 }
 .headerlogo{
+    aspect-ratio: 108/37;
+    margin: 0;
     height: 10%;
 }
