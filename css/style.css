@@ -42,3 +42,11 @@ a:active {
     text-decoration: none; 
     color: black;
 }
+@font-face {
+    font-family: montserrat;
+    src: url(/fonts/montserrat-variablefont_wght-webfont.woff2);
+}
+@font-face {
+    font-family: montserratitalic;
+    src: url(/fonts/montserrat-italic-variablefont_wght-webfont.woff2);
+}

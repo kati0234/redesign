@@ -1,6 +1,8 @@
 h1{
     text-align: center;
     color: white;
+    font-family: montserratitalic;
+    font-size: 5em;
 }
 .h1bilde{
     background-image:url(/imgs/coverprodukter.webp);
@@ -18,4 +20,8 @@ h1{
 .skaalcontainer{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+}
+.overst{
+    padding:5em;
+    line-height: 1.5em;
 }
