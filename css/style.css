@@ -2,7 +2,7 @@ header{
     background-color: #F5EDE5;
 }
 
-main{
+body{
     background-color: #F5EDE5;
 }
 
@@ -17,6 +17,7 @@ footer{
 .headerlogo{
     aspect-ratio: 108/37;
     max-width: .5em;
+    /* DETTE FUNGERER IKKE */
 
 }
 .headerul{
