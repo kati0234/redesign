@@ -15,3 +15,7 @@ h1{
     align-items: center;
     height: 100vh; 
 }
+.skaalcontainer{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
