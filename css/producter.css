@@ -4,6 +4,9 @@ h1{
     font-family: montserratitalic;
     font-size: 5em;
 }
+p{
+    font-family: lora;
+}
 .h1bilde{
     background-image:url(/imgs/coverprodukter.webp);
     background-color:#F5EDE5;
