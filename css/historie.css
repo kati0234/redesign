@@ -1,0 +1,10 @@
+.historieh1{
+    background-image:url(/imgs/historie.JPG);
+    background-color:#F5EDE5;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    position: absolute;
+}
