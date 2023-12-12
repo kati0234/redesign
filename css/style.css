@@ -50,3 +50,11 @@ a:active {
     font-family: montserratitalic;
     src: url(/fonts/montserrat-italic-variablefont_wght-webfont.woff2);
 }
+@font-face {
+    font-family: lora;
+    src: url(/fonts/lora-variablefont_wght-webfont.woff2);
+}
+@font-face {
+    font-family: loraitalic;
+    src: url(/fonts/lora-italic-variablefont_wght-webfont.woff2);
+}
