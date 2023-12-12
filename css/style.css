@@ -5,7 +5,13 @@ html {
   background-color: #f5ede5;
 headeren skal gøre sig mindre, lige nu vil den ikke blive helt lille
 }  */
-
+h1,
+h2 {
+  font-family: lora;
+}
+p {
+  font-family: loraitalic;
+}
 body {
   /* background-color: #f5ede5; */
   /* max-width: 1200px; */

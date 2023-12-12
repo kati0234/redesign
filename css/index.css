@@ -28,10 +28,15 @@ img {
   height: 100%;
   object-fit: cover;
 }
-.logo_boks > img {
+.logo_boks {
   display: block;
   object-fit: cover;
+  max-width: 100%;
+  margin: 0;
+  padding: 20px;
+  background-color: #b0413e;
 }
+
 .farve_boks {
   background-color: #4c403f;
   color: #f5ede5;
@@ -39,5 +44,46 @@ img {
   align-items: center;
 }
 p {
-  font-family: montserratitalic;
+  font-family: lora;
+  font-size: 30px;
+  line-height: 40px;
 }
+h2 {
+  font-family: lora;
+  font-size: 45px;
+}
+h5 {
+  font-family: montserratitalic;
+  font-size: 16px;
+  margin: 15% 0;
+  line-height: 35px;
+  padding: 1em;
+}
+.se_bowls {
+  margin: 5%;
+  padding: 20px;
+}
+.pil {
+  width: 69.007px;
+  margin: auto;
+  transition: 0.5s;
+}
+.pil:hover {
+  translate: 7px;
+}
+.index_bowl {
+  margin: auto;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 100px;
+}
+.grid1_1-1 {
+  background-color: #9cafba;
+}
+.fremgang {
+  margin: 5%;
+  padding: 20px;
+  padding-bottom: 100px;
+}
+
+/* Link på padding? */
