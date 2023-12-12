@@ -1,9 +1,13 @@
-header {
+html {
   background-color: #f5ede5;
 }
+/* header {
+  background-color: #f5ede5;
+headeren skal gøre sig mindre, lige nu vil den ikke blive helt lille
+}  */
 
 body {
-  background-color: #f5ede5;
+  /* background-color: #f5ede5; */
   /* max-width: 1200px; */
   justify-content: center;
 }
@@ -25,6 +29,7 @@ footer {
   padding-bottom: 5em;
   padding-right: 5em;
 }
+/* Padding skal vi ligge på li item og ikke kun teksten! så er det lettere at fange linket. */
 a:link {
   color: black;
   text-decoration: none;
