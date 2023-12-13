@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Mobilsite */
 /* video
 html
@@ -30,11 +36,9 @@ img {
 }
 .logo_boks {
   display: block;
-  object-fit: cover;
   max-width: 100%;
-  margin: 0;
+  margin: auto;
   padding: 20px;
-  background-color: #b0413e;
 }
 
 .farve_boks {
@@ -75,7 +79,7 @@ h5 {
   margin: auto;
   width: 100%;
   padding-top: 0;
-  padding-bottom: 100px;
+  padding-bottom: 0;
 }
 .grid1_1-1 {
   background-color: #9cafba;
@@ -85,36 +89,17 @@ h5 {
   padding: 20px;
   padding-bottom: 100px;
 }
-/* layout */
 .grid_2-3 {
-  display: grid;
-  grid-template-rows: 1fr 3fr;
+  height: 650px;
 }
-.grid_1-1-1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-}
-@media (min-width: 600px) {
-  .grid_2-3 {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-  }
-}
-
 /* Link på padding? */
-* @media (min-width: 600px) {
+
+@media (min-width: 601px) {
   .logo_boks {
-    margin: 0;
-  }
-  .grid_2-3 {
-    background-color: #b0413e;
+    display: block;
+    max-width: 100%;
     margin: auto;
-    /* padding: 0%; */
-    /* height: 750px; */
-    object-fit: cover;
-  }
-  .test {
-    aspect-ratio: 5/2;
+    padding: 20px;
+    flex-shrink: 0;
   }
 }
