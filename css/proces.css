@@ -147,5 +147,8 @@ main {
   .farve {
     background-color: #dcd2c9;
   }
-  
-  
+  @media only screen and (min-width: 601px) and (max-width: 900px){
+    .top{
+        margin-left: none;
+      }
+   }
