@@ -4,21 +4,21 @@ h1 {
   font-family: montserratitalic;
   font-size: 5em;
 }
-footer{
-    font-family: lora;
+footer {
+  font-family: lora;
 }
-.h1bilde{
-    background-image:url(/imgs/coverprodukter.webp);
-    background-color:#F5EDE5;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
+.h1bilde {
+  background-image: url(/imgs/coverprodukter.webp);
+  background-color: #f5ede5;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 .skaalcontainer {
   display: grid;
@@ -27,4 +27,9 @@ footer{
 .overst {
   padding: 5em;
   line-height: 1.5em;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
