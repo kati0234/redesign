@@ -8,16 +8,17 @@ footer {
   font-family: lora;
 }
 .h1bilde {
-  background-image: url(/imgs/IMG_4399.webp);
+  background-image: url(/imgs/coverprodukter.webp);
   background-color: #f5ede5;
   background-size: cover;
-  height: 75vh;
-  width: 100vw;
+  height: 100vh;
+  width: 100%;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 /* .skaalcontainer {
   display: grid;
@@ -38,5 +39,217 @@ footer {
   width: 100px;
 } */
 .skol1 {
-  width: 20%;
+  width: 40%;
+}
+.skol2 {
+  width: 50%;
+}
+/* .grid_1_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.skol05 {
+  grid-column: 1 span 2;
+}
+.skol09 {
+  grid-column: 3;
+}
+.skol14 {
+  grid-column: -1;
+} */
+
+.skaalcontainer {
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  gap: 2px;
+  height: 100%;
+}
+
+.skol05 {
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 3;
+  grid-column-end: 5;
+}
+.skol09 {
+  background-color: #859cb5;
+  grid-row-start: 1;
+  grid-column-start: 5;
+
+  grid-row-end: 3;
+  grid-column-end: 7;
+}
+.skol14 {
+  background-color: #abff77;
+  grid-row-start: 1;
+  grid-column-start: 7;
+
+  grid-row-end: 3;
+  grid-column-end: 9;
+}
+.skol20 {
+  background-color: #5e7edc;
+  grid-row-start: 3;
+  grid-column-start: 1;
+
+  grid-row-end: 5;
+  grid-column-end: 4;
+}
+
+.skol21 {
+  background-color: #957ebd;
+  grid-row-start: 3;
+  grid-column-start: 4;
+
+  grid-row-end: 5;
+  grid-column-end: 7;
+}
+
+.skol30 {
+  background-color: #86cb55;
+  grid-row-start: 3;
+  grid-column-start: 7;
+
+  grid-row-end: 5;
+  grid-column-end: 9;
+}
+.skol31 {
+  background-color: #a99cfb;
+  grid-row-start: 5;
+  grid-column-start: 1;
+
+  grid-row-end: 7;
+  grid-column-end: 3;
+}
+.skol32 {
+  background-color: #cceb7d;
+  grid-row-start: 5;
+  grid-column-start: 3;
+
+  grid-row-end: 6;
+  grid-column-end: 5;
+}
+.skol33 {
+  background-color: #c88958;
+  grid-row-start: 6;
+  grid-column-start: 3;
+
+  grid-row-end: 7;
+  grid-column-end: 5;
+}
+.skol34 {
+  background-color: #dd56d5;
+  grid-row-start: 5;
+  grid-column-start: 5;
+
+  grid-row-end: 7;
+  grid-column-end: 9;
+}
+.skol35 {
+  background-color: #a958bd;
+  grid-row-start: 7;
+  grid-column-start: 4;
+
+  grid-row-end: 9;
+  grid-column-end: 7;
+}
+.skol47 {
+  background-color: #fcafdb;
+  grid-row-start: 7;
+  grid-column-start: 7;
+
+  grid-row-end: 9;
+  grid-column-end: 9;
+}
+.skol51 {
+  background-color: #f9595d;
+  grid-row-start: 7;
+  grid-column-start: 1;
+
+  grid-row-end: 10;
+  grid-column-end: 4;
+}
+.skol52 {
+  background-color: #c7fadd;
+  grid-row-start: 9;
+  grid-column-start: 4;
+
+  grid-row-end: 11;
+  grid-column-end: 6;
+}
+.skol52 {
+  background-color: #5db5e5;
+  grid-row-start: 9;
+  grid-column-start: 6;
+
+  grid-row-end: 11;
+  grid-column-end: 9;
+}
+.skol53 {
+  background-color: #beda99;
+  grid-row-start: 10;
+  grid-column-start: 1;
+
+  grid-row-end: 11;
+  grid-column-end: 4;
+}
+.skol57 {
+  background-color: #97af6f;
+  grid-row-start: 11;
+  grid-column-start: 1;
+
+  grid-row-end: 13;
+  grid-column-end: 3;
+}
+.skol59 {
+  background-color: #78be97;
+  grid-row-start: 11;
+  grid-column-start: 3;
+
+  grid-row-end: 13;
+  grid-column-end: 5;
+}
+.skol61 {
+  background-color: #9b8759;
+  grid-row-start: 11;
+  grid-column-start: 5;
+
+  grid-row-end: 13;
+  grid-column-end: 7;
+}
+.skol81 {
+  background-color: #85a7eb;
+  grid-row-start: 11;
+  grid-column-start: 7;
+
+  grid-row-end: 13;
+  grid-column-end: 9;
+}
+.skol84 {
+  background-color: #ec57b9;
+  grid-row-start: 13;
+  grid-column-start: 1;
+
+  grid-row-end: 15;
+  grid-column-end: 4;
+}
+.skol92 {
+  background-color: #97b5ee;
+  grid-row-start: 13;
+  grid-column-start: 4;
+
+  grid-row-end: 15;
+  grid-column-end: 6;
+}
+.skol94 {
+  background-color: #ba76cf;
+  grid-row-start: 13;
+  grid-column-start: 6;
+
+  grid-row-end: 15;
+  grid-column-end: 9;
 }
