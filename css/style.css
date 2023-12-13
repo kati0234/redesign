@@ -5,7 +5,11 @@ html {
   background-color: #f5ede5;
 headeren skal gøre sig mindre, lige nu vil den ikke blive helt lille
 }  */
-h1,
+h1 {
+    font-family: montserratitalic;
+    font-size: 5em;
+  }
+
 h2 {
   font-family: lora;
 }
