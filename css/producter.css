@@ -12,7 +12,7 @@ footer {
   background-color: #f5ede5;
   background-size: cover;
   height: 70vh;
-  width: 100%;
+  width: 100vw;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
