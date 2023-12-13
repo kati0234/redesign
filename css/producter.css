@@ -20,10 +20,10 @@ footer {
   align-items: center;
   height: 100vh;
 }
-.skaalcontainer {
+/* .skaalcontainer {
   display: grid;
   grid-template-rows: 2fr 1fr 1fr;
-}
+} */
 .overst {
   padding: 5em;
   line-height: 1.5em;
@@ -32,4 +32,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+/* .skol05 i {
+  width: 100px;
+} */
+.skol1 {
+  width: 20%;
 }
