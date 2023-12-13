@@ -31,6 +31,13 @@ ul {
   }
   .grid_1-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+  }
+  .se_bowls {
+    display: flex;
+    flex-direction: column;
+  }
+  .pil {
+    align-self: flex-end;
   }
 }
