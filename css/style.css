@@ -6,8 +6,8 @@ html {
 headeren skal gøre sig mindre, lige nu vil den ikke blive helt lille
 }  */
 h1 {
-    font-family: montserratitalic;
-  }
+  font-family: montserratitalic;
+}
 
 h2 {
   font-family: lora;
@@ -21,27 +21,27 @@ body {
   justify-content: center;
 }
 
-footer {
+/* footer {
   background-color: #473335;
   color: #f5ede5;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-}
+} */
 
 .headerlogo {
   /* aspect-ratio: 108/37; */
-  width:1vw;
+  width: 1vw;
   /* DETTE FUNGERER IKKE :(*/
 }
 .headerul {
-    font-family: lora;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    font: 120% system-ui;
-    text-align: center;
-    padding: 2rem 1rem
+  font-family: lora;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  font: 120% system-ui;
+  text-align: center;
+  padding: 2rem 1rem;
 }
 
 /* Padding skal vi ligge på li item og ikke kun teksten! så er det lettere at fange linket. */
