@@ -75,14 +75,6 @@ footer {
 .fodimg {
   width: 15%;
 }
-img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.skaalcontainer {
-}
 
 @media only screen and (min-width: 900px) {
   .skaalcontainer {
