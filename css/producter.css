@@ -12,22 +12,14 @@ footer {
   background-image: url(/imgs/IMG_4399\ \(1\)-kopi.webp);
   background-color: #f5ede5;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-}
-/* .skaalcontainer {
-  display: grid;
-  grid-template-rows: 2fr 1fr 1fr;
-} */
-.overst {
-  padding: 5em;
-  line-height: 1.5em;
+  margin-bottom: 10em;
 }
 .center {
   display: flex;
