@@ -67,14 +67,17 @@ h5 {
   margin: 5%;
   padding: 20px;
 }
-.pil {
+.pil,
+.pil2 {
   width: 69.007px;
   margin: auto;
   transition: 0.5s;
 }
-.pil:hover {
+.pil:hover,
+.pil2:hover {
   translate: 7px;
 }
+
 .index_bowl {
   margin: auto;
   width: 100%;
@@ -94,7 +97,7 @@ h5 {
 }
 /* Link på padding? */
 
-@media (min-width: 601px) {
+@media (min-width: 700px) {
   .logo_boks {
     display: block;
     max-width: 100%;
@@ -108,11 +111,12 @@ h5 {
   }
   .grid_1-1 {
     margin: auto;
-    padding: 10px;
+    padding: 40px;
     gap: 1em;
+    align-items: center;
   }
   h5 {
-    font-size: 24px;
+    font-size: 30%px;
     line-height: 40px;
   }
   p {
@@ -127,6 +131,23 @@ h5 {
     width: 20%;
     height: 100%;
     margin: 10%;
-    padding-left: 40px;
+  }
+  .pil2 {
+    width: 10%;
+    height: 100%;
+    margin: 5%;
+  }
+  .fremgang {
+    display: flex;
+    flex-direction: column;
+  }
+  .index_bowl {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .bowl3 {
+    margin-top: 20px;
+    padding: 5%;
   }
 }
