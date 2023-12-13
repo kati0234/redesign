@@ -9,3 +9,7 @@ h1 {
     font-family: lora;
     font-size: 1em;
   }
+  .top{
+    font-size: 1em;
+    justify-content: center;
+  }
