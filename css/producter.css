@@ -8,17 +8,16 @@ footer {
   font-family: lora;
 }
 .h1bilde {
-  background-image: url(/imgs/coverprodukter.webp);
+  background-image: url(/imgs/IMG_4399.webp);
   background-color: #f5ede5;
   background-size: cover;
-  height: 100vh;
-  width: 100%;
+  height: 75vh;
+  width: 100vw;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 /* .skaalcontainer {
   display: grid;
