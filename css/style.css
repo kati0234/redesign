@@ -76,3 +76,6 @@ a:active {
   font-family: loraitalic;
   src: url(/fonts/lora-italic-variablefont_wght-webfont.woff2);
 }
+.text2 {
+  font-family: montserrat;
+}
