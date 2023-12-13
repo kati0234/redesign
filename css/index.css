@@ -107,4 +107,7 @@ h5 {
     flex-shrink: 0;
     background: var(--vena-3, #b0413e);
   }
+  .grid_1-1 {
+    padding: 100px;
+  }
 }
