@@ -11,14 +11,13 @@ footer {
   background-image: url(/imgs/coverprodukter.webp);
   background-color: #f5ede5;
   background-size: cover;
-  height: 100vh;
+  height: 70vh;
   width: 100%;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50vh;
 }
 .skaalcontainer {
   display: grid;
