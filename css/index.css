@@ -85,5 +85,36 @@ h5 {
   padding: 20px;
   padding-bottom: 100px;
 }
+/* layout */
+.grid_2-3 {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+}
+.grid_1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+@media (min-width: 600px) {
+  .grid_2-3 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+}
 
 /* Link på padding? */
+* @media (min-width: 600px) {
+  .logo_boks {
+    margin: 0;
+  }
+  .grid_2-3 {
+    background-color: #b0413e;
+    margin: auto;
+    /* padding: 0%; */
+    /* height: 750px; */
+    object-fit: cover;
+  }
+  .test {
+    aspect-ratio: 5/2;
+  }
+}
